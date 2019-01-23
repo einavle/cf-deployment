@@ -58,16 +58,12 @@ vm_extensions:
 networks:
 - name: default
   type: manual
-  subnets:
-  - cidr: 192.168.0.0/16
-    gateway: 192.168.0.1
-    az: z1
-    dns: [8.8.8.8]
-    reserved: ['192.168.0.2 - 192.168.0.9']
-    static: ['192.168.0.10 - 192.168.0.31']
-      dns:
-        - 100.100.2.136
-        - 100.100.2.138
+  cidr: 192.168.0.0/16
+  gateway: 192.168.0.1
+  az: z1
+  dns: [8.8.8.8]
+  reserved: ['192.168.0.2 - 192.168.0.9']
+  static: ['192.168.0.10 - 192.168.0.31']
     cloud_properties:
       vswitch_id: vsw-gw8kokw4mehjrg04tksu8
       security_group_ids:
