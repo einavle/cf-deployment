@@ -1,4 +1,4 @@
-az1_zone:
+az1_zone: eu-central-1a
 az1_vswitch_range:
 az1_vswitch_gateway:
 az1_vswitch_id:
