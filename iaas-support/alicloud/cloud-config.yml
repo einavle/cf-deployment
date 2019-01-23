@@ -63,7 +63,7 @@ networks:
   az: z1
   dns: [8.8.8.8]
   reserved: ['192.168.0.2 - 192.168.0.9']
-  static: ['192.168.0.10 - 192.168.0.31']
+  static:   ['192.168.0.10 - 192.168.0.31']
     cloud_properties:
       vswitch_id: vsw-gw8kokw4mehjrg04tksu8
       security_group_ids:
